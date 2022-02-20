@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>brew's Momentum</title>
+</head>
+
+<body>
+    <h1 id="clock">00:00</h1>
+    <h2 id="greeting" class="alignh hidden">Hello</h2>
+    <form id="login-form">
+        <div class="align">
+            <input id="login" type="text" placeholder="What is your name?" required />
+        </div>
+    </form>
+
+    <form id="todo-form">
+        <div id="todo-form" class="align">
+            <p>What is your main focus today?</p>
+            <input id="todoList" type="text" required />
+        </div>
+    </form>
+
+    <div id="todo-list-Box">
+        <p class="align">&lt;TODO LIST&gt;</p>
+        <ul id="saveTodoList" >
+        </ul>
+    </div>
+    
+    <div id="quote" class="align">
+    </div>
+    <div id="weather">
+        <span>Where are you?</span>
+        <span></span>
+    </div>
+    <footer>
+        © brewxxx
+    </footer>
+
+    <script src="js/clock.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/todolist.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/quote.js"></script>
+    <!-- <script src="js/weather.js"></script> -->
+</body>
+
+</html>
