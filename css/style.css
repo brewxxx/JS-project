@@ -19,15 +19,15 @@ body {
     font-size: 60pt;
     position: relative;
     text-align: center;
-    top : 400px;
+    top: 350px;
     margin: 0;
     text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.603);
 }
 
 #login { 
     position: relative;
-    top: 395px;
-    width: 45%;
+    top: 345px;
+    width: 15%;
     height: 40px;
     align-items: center;
     text-align: center;
@@ -43,20 +43,25 @@ body {
     border-radius: 20px; /*모서리에 굴곡주기 */ */
 }
 
+#login::placeholder{
+    color:#ffffff;
+    opacity: 60%;
+}
+
 #greeting {
-    font-size: 26pt;
-    font-family: 'NotoSanns';
+    font-size: 28pt;
+    font-weight: 700;
     color: #ffffff;
-    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.521);
+    text-shadow: 0px 0px 20px rgb(58, 58, 58);
     position: relative;
     text-align: center;
-    top: 390px;
+    top: 350px;
     margin: 0;
 }
 
 #todo-form{
     position: relative;
-    top: 235px;
+    top: 185px;
 
 }
 
@@ -85,18 +90,28 @@ body {
     border-bottom: 2px solid #ffffff;
 }
 
+#todoList::placeholder{
+    color:#ffffff;
+    opacity: 50%;
+    font-size: 14pt;
+}
 
 #todo-list-Box{
+    position: relative;
+    top:-40px;
     margin:0;
     width: 300px;
-    height: 500px;
+    height: 530px;
     display:block;
-    position: relative;
     left: 75%;
-    /* background-color:aliceblue; */
-    border-radius: 15px;
-    border: 2px solid aliceblue;
+    background-color:rgba(240, 248, 255, 0.3);
+    border-radius: 25px;
+    /* border: 2px solid aliceblue; */
     opacity: 90%;
+    border-top: 18px solid #ffffffd3;
+    border-left: 18px solid #ffffffd3;
+    border-right: 18px solid #ffffffd3;
+    border-bottom: 70px solid #ffffffd3;
     
 }
 
@@ -106,6 +121,14 @@ body {
     margin : 25px;
     background-color: #ffffff;
     color:#383838;
+}
+
+#home {
+    position: absolute;
+    right:121px;
+    top: 545px;
+    font-size: 24pt;
+    border-radius: 120px;
 }
 
 #saveTodoList{
@@ -120,7 +143,6 @@ body {
     font-weight: 600;
     color: #ffffff;
     text-shadow: 0px 0px 13px #000000;
-    
 }
 
 #saveTodoList li{
@@ -142,7 +164,7 @@ body {
 
 #quote {
     position: relative;
-    top : 150px;
+    top : 50px;
     font-size: 12pt;
     letter-spacing: 0.5px;
     padding-bottom:13px;
@@ -155,7 +177,7 @@ body {
 #weather{
     position: relative;
     left: 30px;
-    top: 130px;
+
     margin: 0;
     color:#ffffff;
 }
@@ -163,24 +185,13 @@ body {
 footer {
     position: relative;
     right: 10px;
-    top: 120px;
+    
     margin:0;
     font-size: 10pt;
     color: #ffffff;
     text-align: right;
     text-shadow: 0px 0px 20px rgb(58, 58, 58);
 }
-/* img {
-    position:absolute;
-    width:100%;
-    height:100%;
-    left: 0px;
-    top: 0px;
-    right:0px;
-    bottom:0px;
-    z-index: -1;
-    opacity:80%;
-} */
 
 .align {
     text-align: center;
