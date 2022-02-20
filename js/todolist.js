@@ -64,3 +64,14 @@ function handleToDoSubmit(event){   //1️⃣ submit됐을 때 새로고침되�
 };
 
 todoForm.addEventListener("submit", handleToDoSubmit);
+
+const todoScreen = document.querySelector("#saveTodoList");
+const homeButton = document.querySelector("#home");
+
+
+function hiddenTodoList(){
+    todoScreen.classList.toggle("hidden"); 
+}
+
+
+homeButton.addEventListener("click", hiddenTodoList);
